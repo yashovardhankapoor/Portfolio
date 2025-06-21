@@ -1,4 +1,7 @@
 @media screen and (max-width: 1400px) {
+  .article-container {
+    height: fit-content;
+  }
   #profile {
     height: 83vh;
     margin-bottom: 6rem;
@@ -13,6 +16,12 @@
 }
 
 @media screen and (max-width: 1200px) {
+    .contact-info-upper-container {
+    flex-direction: column;
+  }
+    .article-container {
+    height: fit-content;
+  }
   #desktop-nav {
     display: none;
   }
@@ -48,6 +57,12 @@
 }
 
 @media screen and (max-width: 600px) {
+    .contact-info-upper-container {
+    flex-direction: column;
+  }
+    .article-container {
+    height: fit-content;
+  }
   #contact,
   footer {
     height: 40vh;
